@@ -34,11 +34,11 @@ body {
 
 .header__subtitle {
   color: #24292f;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.4;
-  margin: 10px;
+  margin: 16px;
   background-color: #F6F8FA; /* Цвет фона для подзаголовка */
-  padding: 8px; /* Отступы вокруг текста */
+  padding: 4px; /* Отступы вокруг текста */
   border-radius: 5px; /* Скругление углов */
 }
 
@@ -50,11 +50,11 @@ body {
 .links__header {
   font-family: "Helvetica Neue";
   text-align: center;
-  font-size: 24px;
+  font-size: 22px;
   line-height: 1.4;
   margin: 0 0 15px 0;
   background-color: #F6F8FA; /* Цвет фона для заголовка секции */
-  padding: 10px; /* Отступы вокруг текста */
+  padding: 0px; /* Отступы вокруг текста */
   border-radius: 5px; /* Скругление углов */
 }
 
