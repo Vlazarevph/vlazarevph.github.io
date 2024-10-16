@@ -1,0 +1,129 @@
+body {
+  font-family: "Helvetica", sans-serif;
+  background-color: #F6F8FA;
+  color: #24292f;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Задает высоту body на всю высоту экрана */
+  margin: 0; /* Убирает отступы по умолчанию */
+  background-image: url('./back.png');
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat;
+}
+
+.header {
+  text-align: center; /* Центрирование текста внутри .header */
+}
+
+.header__avatar {
+  border-radius: 50%;
+}
+
+.header__title {
+  margin: 10px 0; /* Уменьшил отступы */
+  font-size: 32px;
+  line-height: 1.2;
+  font-family: "Helvetica Neue";
+  background-color: #f6f8fa; /* Цвет фона для заголовка */
+  padding: 0px; /* Отступы вокруг текста */
+  border-radius: 5px; /* Скругление углов */
+}
+
+.header__subtitle {
+  color: #24292f;
+  font-size: 16px;
+  line-height: 1.4;
+  margin: 10px;
+  background-color: #F6F8FA; /* Цвет фона для подзаголовка */
+  padding: 8px; /* Отступы вокруг текста */
+  border-radius: 5px; /* Скругление углов */
+}
+
+.links {
+  width: 320px;
+  margin-bottom: 40px;
+}
+
+.links__header {
+  font-family: "Helvetica Neue";
+  text-align: center;
+  font-size: 24px;
+  line-height: 1.4;
+  margin: 0 0 15px 0;
+  background-color: #F6F8FA; /* Цвет фона для заголовка секции */
+  padding: 10px; /* Отступы вокруг текста */
+  border-radius: 5px; /* Скругление углов */
+}
+
+.links__container {
+  background-color: #fff;
+  list-style-type: none;
+  border: 1px solid hsla(210, 18%, 87%, 1);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px;
+  gap: 10px;
+}
+
+.links__link,
+.links__title {
+  font-size: 14px;
+  color: #57606a;
+}
+
+.links__link {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px 0px 10px;
+  gap: 30px;
+  border-bottom: 1px solid hsla(210, 18%, 87%, 1);
+}
+
+.links__link:last-child {
+  border-bottom: none;
+}
+
+.links__link,
+.links__link:visited {
+  text-decoration: none;
+  color: #0000EE;
+}
+
+.links__title {
+  margin: 0;
+  min-width: 100px;
+}
+
+footer {
+  margin: 0 0 40px 0;
+}
+
+.button-link {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  width: 320px;
+  background: #fff;
+  border: 1px solid rgba(27, 31, 36, 0.15);
+  border-radius: 5px;
+
+  font-size: 14px;
+  line-height: 1.4;
+
+  color: #0000EE;
+  text-decoration: none;
+}
+
+.button-link:hover {
+  background-color: #e6e6fa;
+  color: #0000ff;
+}
